@@ -3,7 +3,7 @@ cask "unlog" do
   name "unlog"
   desc "Unravel your logs — CLI log analysis tool"
   homepage "https://github.com/oxforge/unlog"
-  version "0.1.4"
+  version "0.2.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "unlog" do
   on_macos do
     on_intel do
       url "https://github.com/oxforge/unlog/releases/download/v#{version}/unlog_#{version}_darwin_amd64.tar.gz"
-      sha256 "3f61e320e72fb019c7c761984dba309a47c7926fb0db11d28635b1147a0aafa4"
+      sha256 "033f534f89b41e0b20dbbe93770af227efe99a26f16c75d7d3a004744d4f9ef8"
     end
     on_arm do
       url "https://github.com/oxforge/unlog/releases/download/v#{version}/unlog_#{version}_darwin_arm64.tar.gz"
-      sha256 "acbe75fe548056ee55598ac3f78ab3aa6b7c7c5d9e28341926a75fe20238f4c8"
+      sha256 "72ddb4b3bdd88a37de4c91261082cc62523ab6a20c0e29f0dfdb700568b9e443"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/oxforge/unlog/releases/download/v#{version}/unlog_#{version}_linux_amd64.tar.gz"
-      sha256 "27fc844dba3527cd5049daecb59a72883cb5781775209f9aeafbdb630b4d7077"
+      sha256 "b2c25e779e7970588be4e7daa7ec5652202fdc3bfd222075ef30607df37a2a52"
     end
     on_arm do
       url "https://github.com/oxforge/unlog/releases/download/v#{version}/unlog_#{version}_linux_arm64.tar.gz"
-      sha256 "2e48cfe79fdb347a55d614f1f1ede31dc5dac3b3dfbc4d900dfab043f4cf6996"
+      sha256 "6ab9157aea313de21e83acc5d5f2263d89acdd8ab44b51b54fd3646ccfa88696"
     end
   end
 
